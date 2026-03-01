@@ -1,0 +1,11 @@
+dependencies:
+  - name: go
+    version: "1.22"
+  - name: docker
+    version: "latest"
+
+template: "https://github.com/ChinmayyK/template-go-api.git"
+
+linting: true
+gitHooks: false
+envFile: true
